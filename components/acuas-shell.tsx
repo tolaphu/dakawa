@@ -184,7 +184,7 @@ export function ProductPhoto({
         <img
           src="/assets/dakawa-facebook-cover.jpg"
           alt={product.name + ' DAKAWA'}
-          loading="lazy"
+          loading="eager"
           className={`product-sprite product-sprite-${index}`}
         />
       </div>
