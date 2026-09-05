@@ -1,0 +1,14 @@
+import { createRoot } from 'react-dom/client';
+import Home from '../app/page';
+import Products from '../app/san-pham/page';
+import About from '../app/ve-dakawa/page';
+import Quality from '../app/chat-luong/page';
+import Business from '../app/doanh-nghiep/page';
+import Agency from '../app/dai-ly/page';
+import Contact from '../app/lien-he/page';
+import '../app/template-brand.css';
+import '../app/studio.css';
+const routes: Record<string, typeof Home> = {'':Home,'san-pham':Products,'ve-dakawa':About,'chat-luong':Quality,'doanh-nghiep':Business,'dai-ly':Agency,'lien-he':Contact};
+const path=location.pathname.replace(import.meta.env.BASE_URL,'').replace(/^\/+|\/+$/g,'');
+const Page=routes[path];
+createRoot(document.getElementById('root')!).render(Page ? <Page/> : <main><h1>Không tìm thấy trang</h1><a href={import.meta.env.BASE_URL}>Về trang chủ DAKAWA</a></main>);

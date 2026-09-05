@@ -41,3 +41,5 @@ next-env.d.ts
 /.impeccable/
 /qa-*/
 *.tar.gz
+
+/dist-pages/
