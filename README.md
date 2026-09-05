@@ -33,4 +33,4 @@ Website public: https://tolaphu.github.io/dakawa/
 
 `npm run build:pages` tạo HTML, CSS, JavaScript và ảnh tĩnh trong `dist-pages/`. Entry `pages/main.tsx` dùng lại các component React hiện có; Vite đặt đường dẫn tài nguyên dưới `/dakawa/`. Các trang con có thư mục HTML riêng để mở trực tiếp. Không cần server Vinext trên GitHub Pages. Form vẫn là demo.
 
-Workflow `.github/workflows/pages.yml` tự build và deploy khi push vào `main`.
+Workflow `.github/workflows/static.yml` tự build và deploy khi push vào `main`.
