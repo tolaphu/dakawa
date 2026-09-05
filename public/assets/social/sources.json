@@ -1,0 +1,23 @@
+[
+  {
+    "file": "chai-nuoc-dakawa.jpg",
+    "source": "https://www.facebook.com/photo.php?fbid=1257001716233419",
+    "account": "https://www.facebook.com/dakawa.vn/",
+    "retrieved": "2026-09-05",
+    "sha256": "7bd2cd732854c09ec98a16549df72f2d807fb7f0dc5a2b1eb98f5ea47f64eb49"
+  },
+  {
+    "file": "day-chai-dakawa.jpg",
+    "source": "https://www.facebook.com/photo.php?fbid=1257001626233428",
+    "account": "https://www.facebook.com/dakawa.vn/",
+    "retrieved": "2026-09-05",
+    "sha256": "dd362390c6d70001171c5dd751caea0f920ebd7f321c9b995801e29026df8812"
+  },
+  {
+    "file": "binh-dakawa.jpg",
+    "source": "https://www.facebook.com/photo.php?fbid=1257001486233442",
+    "account": "https://www.facebook.com/dakawa.vn/",
+    "retrieved": "2026-09-05",
+    "sha256": "1b54baa16d1e9c1050645967eb849c94c89586387aa6aa5885970c5d5c372b87"
+  }
+]

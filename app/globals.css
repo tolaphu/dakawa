@@ -1,0 +1,5 @@
+/* Acuas upstream CSS is used directly. Keep the template's composition and typography. */
+@import url('/acuas/css/bootstrap.min.css');
+@import url('/acuas/lib/animate/animate.min.css');
+@import url('/acuas/css/style.css');
+@import './template-brand.css';
